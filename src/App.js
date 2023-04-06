@@ -20,6 +20,7 @@ function App() {
           <a
             href="https://github.com/bnardi99/react-dictionary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             Open-source
