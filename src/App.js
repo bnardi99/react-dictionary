@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -11,6 +12,21 @@ function App() {
           alt="Dictionary App logo"
         />
       </header>
+      <main>
+        <Dictionary />
+      </main>
+      <footer className="App-footer">
+        <small>
+          <a
+            href="https://github.com/bnardi99/react-dictionary"
+            target="_blank"
+          >
+            {" "}
+            Open-source
+          </a>{" "}
+          code by Brenda Nardi
+        </small>
+      </footer>
     </div>
   );
 }
