@@ -1,22 +1,22 @@
 import logo from "./logo.png";
-import "./App.css";
 import Dictionary from "./Dictionary";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img
-          src={logo}
-          className="App-logo img-fluid"
-          alt="Dictionary App logo"
-        />
-      </header>
-      <main>
-        <Dictionary />
-      </main>
-      <footer className="App-footer">
-        <small>
+      <div className="container">
+        <header className="App-header">
+          <a
+            href="https://dictionary-app-bn.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={logo} className="logo" alt="SheCodes Logo" />
+          </a>
+        </header>
+        <Dictionary defaultKeyword="sunset" />
+        <footer className="App-footer">
           <a
             href="https://github.com/bnardi99/react-dictionary"
             target="_blank"
@@ -26,8 +26,8 @@ function App() {
             Open-source
           </a>{" "}
           code by Brenda Nardi
-        </small>
-      </footer>
+        </footer>
+      </div>
     </div>
   );
 }
