@@ -12,7 +12,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={logo} className="logo" alt="SheCodes Logo" />
+            <img src={logo} className="logo" alt="Dictionary App logo" />
           </a>
         </header>
         <Dictionary defaultKeyword="sunset" />
