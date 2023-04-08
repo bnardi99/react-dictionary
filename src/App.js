@@ -11,7 +11,7 @@ function App() {
             <img src={logo} className="logo" alt="Dictionary App logo" />
           </a>
         </header>
-        <Dictionary defaultKeyword="sunset" />
+        <Dictionary defaultKeyword="coding" />
         <footer className="App-footer">
           <a
             href="https://github.com/bnardi99/react-dictionary"
