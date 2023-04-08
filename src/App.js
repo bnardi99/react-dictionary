@@ -7,11 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <a
-            href="https://dictionary-app-bn.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://dictionary-app-bn.netlify.app/">
             <img src={logo} className="logo" alt="Dictionary App logo" />
           </a>
         </header>
